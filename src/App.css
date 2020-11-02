@@ -1,38 +1,25 @@
-.App {
+.App{
+  background-color: #075E54;
+}
+
+.form-wsp{
   text-align: center;
+  margin: 0 30%;
+  height: 100vh;
+  padding-top: 50px;
+  color: white !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-wsp form input[type=number], .form-wsp form textarea{
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: solid 3px #25D366 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 700px) {
+ 
+  .form-wsp{
+    margin: 0 8%;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }

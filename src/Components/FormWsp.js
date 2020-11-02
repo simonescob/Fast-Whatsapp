@@ -32,7 +32,7 @@ function FormWsp(){
       <Form onSubmit={send}>
 
         <Form.Field control="input" type="number" 
-          placeholder="Código de país sin el simbolo "+" y Número" 
+          placeholder="Código de país sin el simbolo '+' y Número" 
           onChange={(e) => updateNumber(e.target.value)}
         />
         <Form.Field control="textarea" row="3" placeholder="Mensaje" 
